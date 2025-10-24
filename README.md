@@ -54,17 +54,24 @@ The goal is to create **reusable, scalable, and JSON-exportable workflows** that
 - **Purpose:** Sends scheduled messages to all recipients in a campaign 📲  
 - **Google Sheets Integration:** Reads from Campaign, Receivers, and Senders sheets  
 - **Key Nodes:** Google Sheets → HTTP Request → Function → Set  
-- **Screenshot:** ![whatsapp_campaign](screenshots/whatsapp_campaign.png)  
+  
 
 ### 2️⃣ Message Logging Workflow
 - **Purpose:** Updates the Message Logs sheet with the delivery status of messages ✅  
 - **Key Nodes:** HTTP Request → Google Sheets → Function  
-- **Screenshot:** ![message_logs](screenshots/message_logs.png)  
+
 
 ### 3️⃣ Follow-up Workflow
 - **Purpose:** Sends reminders or follow-ups for unsent or failed messages ⏰  
 - **Key Nodes:** Google Sheets → IF → HTTP Request → Google Sheets  
-- **Screenshot:** ![followup_workflow](screenshots/followup_workflow.png)  
+ <img width="2535" height="1242" alt="Screenshot 2025-10-25 021843" src="https://github.com/user-attachments/assets/0cda759a-fa44-4c39-a984-6aad32c76a43" />
+ <img width="2535" height="1242" alt="Screenshot 2025-10-25 021843" src="https://github.com/user-attachments/assets/15e8e5c8-bed9-4ce1-97dd-4239965ac02e" />
+Before 
+<img width="2423" height="1214" alt="Screenshot 2025-10-25 021807" src="https://github.com/user-attachments/assets/da237d53-14d4-4728-afc2-24ef10ba37cf" />
+After
+<img width="2273" height="976" alt="image" src="https://github.com/user-attachments/assets/9c777077-5e20-4500-a7b8-f23b35c6c69f" />
+
+
 
 ---
 
